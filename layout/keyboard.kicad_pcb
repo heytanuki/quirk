@@ -773,7 +773,7 @@
   )
 
   (module MX_Only:MXOnly-2.25U-NoLED (layer F.Cu) (tedit 5BD3C6E1) (tstamp 6020F8C1)
-    (at 157.1625 -27.78125)
+    (at 114.3 -27.78125)
     (path /00000331)
     (fp_text reference K_SPACE2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -807,7 +807,7 @@
   )
 
   (module MX_Only:MXOnly-2.25U-NoLED (layer F.Cu) (tedit 5BD3C6E1) (tstamp 6020F8A8)
-    (at 114.3 -27.78125)
+    (at 157.1625 -27.78125)
     (path /00000341)
     (fp_text reference K_SPACE1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1085,7 +1085,7 @@
   )
 
   (module MX_Only:MXOnly-1U-NoLED (layer F.Cu) (tedit 5BD3C6C7) (tstamp 6020F7E3)
-    (at 35.71875 -27.78125)
+    (at 226.21875 -27.78125)
     (path /00000371)
     (fp_text reference K_OBRAC1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1655,7 +1655,7 @@
   )
 
   (module MX_Only:MXOnly-1U-NoLED (layer F.Cu) (tedit 5BD3C6C7) (tstamp 6020F654)
-    (at 226.21875 -27.78125)
+    (at 35.71875 -27.78125)
     (path /00000301)
     (fp_text reference K_CBRAC1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2496,7 +2496,7 @@
   )
 
   (module keyboard_parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 6020F42B)
-    (at 165.1 -27.78125 90)
+    (at 122.2375 -27.78125 90)
     (path /00000330)
     (attr smd)
     (fp_text reference D_SPACE2 (at 0 1.925 90) (layer F.SilkS)
@@ -2529,7 +2529,7 @@
   )
 
   (module keyboard_parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 6020F418)
-    (at 122.2375 -27.7125 90)
+    (at 165.1 -27.76875 90)
     (path /00000340)
     (attr smd)
     (fp_text reference D_SPACE1 (at 0 1.925 90) (layer F.SilkS)
@@ -2826,7 +2826,7 @@
   )
 
   (module keyboard_parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 6020F36D)
-    (at 43.65625 -27.78125 90)
+    (at 234.15625 -27.78125 90)
     (path /00000370)
     (attr smd)
     (fp_text reference D_OBRAC1 (at 0 1.925 90) (layer F.SilkS)
@@ -3453,7 +3453,7 @@
   )
 
   (module keyboard_parts:D_SOD123_axial (layer F.Cu) (tedit 561B6A12) (tstamp 6020F204)
-    (at 234.15625 -27.78125 90)
+    (at 43.65625 -27.78125 90)
     (path /00000300)
     (attr smd)
     (fp_text reference D_CBRAC1 (at 0 1.925 90) (layer F.SilkS)
