@@ -1845,37 +1845,37 @@ F 3 "" H 8650 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6950 7900 0    50   Input ~ 0
-col0
+col4
 Text GLabel 6950 8000 0    50   Input ~ 0
-col1
+col3
 Text GLabel 6950 8100 0    50   Input ~ 0
 col2
 Text GLabel 6950 8200 0    50   Input ~ 0
-col3
+col1
 Text GLabel 6950 8300 0    50   Input ~ 0
-col4
+col0
 Text GLabel 6950 8400 0    50   Input ~ 0
-col5
-Text GLabel 6950 8500 0    50   Input ~ 0
-col6
-Text GLabel 6950 8600 0    50   Input ~ 0
-col7
-Text GLabel 8350 8600 2    50   Input ~ 0
-col8
-Text GLabel 8350 8500 2    50   Input ~ 0
-col9
-Text GLabel 8350 8400 2    50   Input ~ 0
-col10
-Text GLabel 8350 8300 2    50   Input ~ 0
-col11
-Text GLabel 8350 8200 2    50   Input ~ 0
-row0
-Text GLabel 8350 8100 2    50   Input ~ 0
-row1
-Text GLabel 8350 8000 2    50   Input ~ 0
 row2
-Text GLabel 8350 7900 2    50   Input ~ 0
+Text GLabel 6950 8500 0    50   Input ~ 0
 row3
+Text GLabel 6950 8600 0    50   Input ~ 0
+row4
+Text GLabel 8350 8600 2    50   Input ~ 0
+col11
+Text GLabel 8350 8500 2    50   Input ~ 0
+col10
+Text GLabel 8350 8400 2    50   Input ~ 0
+col9
+Text GLabel 8350 8300 2    50   Input ~ 0
+col8
+Text GLabel 8350 8200 2    50   Input ~ 0
+col7
+Text GLabel 8350 8100 2    50   Input ~ 0
+col6
+Text GLabel 8350 8000 2    50   Input ~ 0
+row1
+Text GLabel 8350 7900 2    50   Input ~ 0
+row0
 Wire Wire Line
 	8350 7600 8650 7600
 Wire Wire Line
@@ -1884,5 +1884,5 @@ Connection ~ 8650 7250
 Wire Wire Line
 	8650 7250 8650 7600
 Text GLabel 6950 7500 0    50   Input ~ 0
-row4
+col5
 $EndSCHEMATC
