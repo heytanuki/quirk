@@ -1833,17 +1833,6 @@ F 3 "" V 8700 5550 60  0001 C CNN
 	1    7650 8050
 	1    0    0    -1  
 $EndComp
-$Comp
-L keyboard_parts:GND #PWR0101
-U 1 1 603330CF
-P 8650 7250
-F 0 "#PWR0101" H 8650 7300 20  0001 C CNN
-F 1 "GND" H 8650 7309 30  0000 C CNN
-F 2 "" H 8650 7250 60  0000 C CNN
-F 3 "" H 8650 7250 60  0000 C CNN
-	1    8650 7250
-	1    0    0    -1  
-$EndComp
 Text GLabel 6950 7900 0    50   Input ~ 0
 col4
 Text GLabel 6950 8000 0    50   Input ~ 0
@@ -1876,13 +1865,39 @@ Text GLabel 8350 8000 2    50   Input ~ 0
 row1
 Text GLabel 8350 7900 2    50   Input ~ 0
 row0
-Wire Wire Line
-	8350 7600 8650 7600
-Wire Wire Line
-	8650 7150 8650 7250
-Connection ~ 8650 7250
-Wire Wire Line
-	8650 7250 8650 7600
 Text GLabel 6950 7500 0    50   Input ~ 0
 col5
+$Comp
+L power:GND #PWR?
+U 1 1 60410D36
+P 8850 7600
+F 0 "#PWR?" H 8850 7350 50  0001 C CNN
+F 1 "GND" H 8855 7427 50  0000 C CNN
+F 2 "" H 8850 7600 50  0001 C CNN
+F 3 "" H 8850 7600 50  0001 C CNN
+	1    8850 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 7600 8850 7600
+$Comp
+L power:GND #PWR?
+U 1 1 6049377B
+P 6600 7700
+F 0 "#PWR?" H 6600 7450 50  0001 C CNN
+F 1 "GND" H 6605 7527 50  0000 C CNN
+F 2 "" H 6600 7700 50  0001 C CNN
+F 3 "" H 6600 7700 50  0001 C CNN
+	1    6600 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 7700 6800 7700
+Wire Wire Line
+	6950 7800 6800 7800
+Wire Wire Line
+	6800 7800 6800 7700
+Connection ~ 6800 7700
+Wire Wire Line
+	6800 7700 6600 7700
 $EndSCHEMATC
